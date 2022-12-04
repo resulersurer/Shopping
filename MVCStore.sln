@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCStoreWeb", "MVCStoreWeb\MVCStoreWeb.csproj", "{2929F6C0-7FDD-4A9F-A713-354C10AB403F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCStoreData", "MVCStoreData\MVCStoreData.csproj", "{1987796D-6A74-456E-9A6C-0D445334DD29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MigrationsSqlServer", "MigrationsSqlServer\MigrationsSqlServer.csproj", "{4374A002-20F5-44AE-8183-94E7A59EA938}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MigrationsNpgsql", "MigrationsNpgsql\MigrationsNpgsql.csproj", "{D84D7220-DF50-4792-8F8E-2F90F980FFDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCStoreApi", "MVCStoreApi\MVCStoreApi.csproj", "{C848E97A-694D-44BC-9B4E-6C7EC07F56E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCStoreClient", "MVCStoreClient\MVCStoreClient.csproj", "{ABEAC75A-AA30-4FA3-8B4C-CB28877EA8B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2929F6C0-7FDD-4A9F-A713-354C10AB403F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2929F6C0-7FDD-4A9F-A713-354C10AB403F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2929F6C0-7FDD-4A9F-A713-354C10AB403F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2929F6C0-7FDD-4A9F-A713-354C10AB403F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1987796D-6A74-456E-9A6C-0D445334DD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1987796D-6A74-456E-9A6C-0D445334DD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1987796D-6A74-456E-9A6C-0D445334DD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1987796D-6A74-456E-9A6C-0D445334DD29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4374A002-20F5-44AE-8183-94E7A59EA938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4374A002-20F5-44AE-8183-94E7A59EA938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4374A002-20F5-44AE-8183-94E7A59EA938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4374A002-20F5-44AE-8183-94E7A59EA938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84D7220-DF50-4792-8F8E-2F90F980FFDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84D7220-DF50-4792-8F8E-2F90F980FFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84D7220-DF50-4792-8F8E-2F90F980FFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84D7220-DF50-4792-8F8E-2F90F980FFDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C848E97A-694D-44BC-9B4E-6C7EC07F56E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C848E97A-694D-44BC-9B4E-6C7EC07F56E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C848E97A-694D-44BC-9B4E-6C7EC07F56E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C848E97A-694D-44BC-9B4E-6C7EC07F56E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABEAC75A-AA30-4FA3-8B4C-CB28877EA8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABEAC75A-AA30-4FA3-8B4C-CB28877EA8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABEAC75A-AA30-4FA3-8B4C-CB28877EA8B7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ABEAC75A-AA30-4FA3-8B4C-CB28877EA8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABEAC75A-AA30-4FA3-8B4C-CB28877EA8B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABEAC75A-AA30-4FA3-8B4C-CB28877EA8B7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76A0AD2F-E6DC-4815-9FC3-5F1C1810106B}
+	EndGlobalSection
+EndGlobal
